@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    float: center;
+}
+.navbar-default{
+    float: center;
+}
+.btn-block{
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px){
+    .navbar-default{
+        width: 640px;
+    }
+    .jumbotron{
+
+    }
+}
