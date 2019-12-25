@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: #000;
+    
     margin: 0px;
     padding: 0px;
     float: center;
@@ -11,9 +11,23 @@ body{
 .navbar-default{
     float: center;
 }
+.start-alert{
+    margin: 0% 45% 0% 45%;
+}
+.right-btn{
+    margin: -37px 0px 0px 0px;
+}
 .btn-block{
     margin-top: -30px;
     cursor: pointer;
+}
+#btn-danger{
+    margin-top: -250px;
+    position: absolute;
+    background-color: rgba(255, 51, 51,0.7);
+}
+#btn-success{
+    margin-top: -50px;
 }
 @media only screen and (max-width: 640px){
     .navbar-default, .jumbotron, .btn-block{

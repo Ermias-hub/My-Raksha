@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Raksha</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="icon" href="images/raksha-background.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/raksha-background.png">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -17,24 +17,12 @@
           </div>      
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li ><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li ><a href="#">My profile <span class="sr-only">(current)</span></a></li>
               <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
             </ul>
             <form class="navbar-form navbar-left">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="Search history...">
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
@@ -64,7 +52,10 @@
                 <button type="button" class="btn btn-default">Standby</button>
                 <button type="button" class="btn btn-default">Turn off</button>
             </div>
-            <div class="btn-group righ-btn" role="group" style="float: right;">
+            <div class="start-alert">
+              <button type="button" class="btn btn-danger">start-alert</button>
+            </div>
+            <div class="btn-group right-btn" role="group" style="float: right;">
                 <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-record"></button>
                 <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-facetime-video"></button>
                 <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-volume-up"></button>
@@ -73,9 +64,11 @@
             </div>
 
         </div>
-        <center><img src="assets/images/raksha-background.png" alt="raksha-background"></center>
+        <div>
+          <center><img src="assets/images/raksha-background.png" alt="raksha-background"></center>
+          <button type="button" class="btn btn-danger btn-block"id="btn-danger"><h2>Someone is stealing something. Go and stop him!</h2></button>
+          <button type="button" class="btn btn-success btn-block" id="btn-success"><h2>Your Raksha is safe</h2></button>
+        </div>
     </div>
-    <button type="button" class="btn btn-success btn-block" id="eru"><h2>Your Raksha is safe</h2></button>
-    <button type="button" class="btn btn-danger btn-block"><h2>Someone is stealing something. Go and stop him!</h2></button>
 </body>
 </html>
